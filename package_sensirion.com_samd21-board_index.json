@@ -1,0 +1,54 @@
+{
+  "packages": [
+    {
+      "name": "SensirionArduinoZero",
+      "maintainer": "Sensirion AG",
+      "websiteURL": "http://sensirion.com/developers",
+      "email": "",
+      "help": {
+        "online": "http://sensirion.com/developers"
+      },
+      "platforms": [
+        {
+          "name": "SensirionArduinoZero",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Arduino",
+          "url": "https://github.com/Fototux/arduino-zero-board/raw/master/Sensirion_arduino_zero-board.tar.gz",
+          "archiveFileName": "Sensirion_arduino_zero-board.tar.gz",
+          "checksum": "SHA-256:6b72cbdd998f4abfb2db7f31d871de574a0a2660a2d202239ff0531dae49143c",
+          "size": "403505",
+          "boards": [
+            {
+              "name": "SensirionArduinoZero"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
